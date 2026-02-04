@@ -20,7 +20,7 @@ export default function About() {
               {/* Main Photo Container */}
               <div className="aspect-[4/5] max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden shadow-2xl shadow-slate-900/20 border-4 border-white bg-gradient-to-br from-slate-800 to-slate-900">
                 <img 
-                  src="/cedric-charlier.jpg"
+                  src="https://raw.githubusercontent.com/mdruszcz/sap-consultant-landing/main/public/cedric-charlier.jpg"
                   alt="Cédric Charlier - Consultant SAP Expert"
                   className="w-full h-full object-cover object-top"
                 />
