@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { TrendingUp, User } from 'lucide-react'
 
 const credentials = [
@@ -20,12 +19,10 @@ export default function About() {
             <div className="relative z-10">
               {/* Main Photo Container */}
               <div className="aspect-[4/5] max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden shadow-2xl shadow-slate-900/20 border-4 border-white bg-gradient-to-br from-slate-800 to-slate-900">
-                <Image 
+                <img 
                   src="/cedric-charlier.jpg"
                   alt="Cédric Charlier - Consultant SAP Expert"
-                  fill
-                  className="object-cover object-top"
-                  priority
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               
